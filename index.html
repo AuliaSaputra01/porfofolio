@@ -3,18 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aulia Saputra Portfolio</title>
+
+  <title>Aulia Saputra | Digital Portfolio</title>
 
   <link rel="stylesheet" href="style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<div class="bg-gradient"></div>
+
 <header>
+
   <nav>
-    <h2 class="logo">Aulia Saputra</h2>
+
+    <h2 class="logo">
+      Aulia<span>.</span>
+    </h2>
 
     <ul>
       <li><a href="#about">Tentang</a></li>
@@ -22,26 +29,38 @@
       <li><a href="#contact">Kontak</a></li>
     </ul>
 
-    <button id="darkMode">🌙</button>
+    <button id="darkMode">
+      🌙
+    </button>
+
   </nav>
+
 </header>
 
 <section class="hero">
 
   <div class="hero-text">
 
-    <h1>Creative Digital Developer</h1>
+    <span class="hero-tag">
+      DIGITAL CREATOR • WEB DEVELOPER
+    </span>
+
+    <h1>
+      Build Modern <br>
+      Digital Experience
+    </h1>
 
     <p>
-      Mahasiswa Sistem Informasi Teknik Informatika yang fokus pada
-      website development, UI/UX design, media digital,
-      dan creative technology.
+      Mahasiswa Sistem Informasi Teknik Informatika
+      yang fokus pada pengembangan website modern,
+      UI/UX design, media digital,
+      dan branding kreatif berbasis teknologi.
     </p>
 
     <div class="hero-button">
 
-      <a href="#project" class="btn">
-        Lihat Portofolio
+      <a href="#project" class="btn primary-btn">
+        Explore Portfolio
       </a>
 
       <a 
@@ -54,36 +73,121 @@
 
     </div>
 
+    <div class="hero-social">
+
+      <a href="https://www.instagram.com/auliasaputraaa_?igsh=YmZhM25sdWd1aXEw" target="_blank">
+        Instagram
+      </a>
+
+      <a href="https://www.tiktok.com/@aulia.saputr7?is_from_webapp=1&sender_device=pc" target="_blank">
+        TikTok
+      </a>
+
+      <a href="https://auliasaputra01.github.io/web-aulia/" target="_blank">
+        GitHub
+      </a>
+
+    </div>
+
   </div>
 
   <div class="hero-image">
-    <img src="profile.jpg" alt="Aulia Saputra">
+
+    <div class="image-wrapper">
+
+      <div class="glow"></div>
+
+      <img src="profile.jpg" alt="Aulia Saputra">
+
+    </div>
+
   </div>
 
 </section>
 
 <section class="about" id="about">
 
-  <h2>Tentang Saya</h2>
+  <div class="section-title">
 
-  <p>
-    Saya adalah mahasiswa yang memiliki minat dalam pengembangan website,
-    desain modern, editing multimedia, dan branding digital.
-  </p>
+    <span>ABOUT ME</span>
+
+    <h2>
+      Creative Digital Enthusiast
+    </h2>
+
+  </div>
+
+  <div class="about-container">
+
+    <div class="about-card">
+
+      <h3>Perkenalan</h3>
+
+      <p>
+        Saya memiliki minat dalam pengembangan website,
+        desain modern, editing multimedia,
+        branding digital, dan creative technology.
+      </p>
+
+    </div>
+
+    <div class="about-card">
+
+      <h3>Keahlian</h3>
+
+      <div class="skills">
+
+        <span>Web Design</span>
+        <span>UI/UX</span>
+        <span>Frontend</span>
+        <span>Branding</span>
+        <span>Editing</span>
+        <span>Creative Media</span>
+
+      </div>
+
+    </div>
+
+  </div>
 
 </section>
 
 <section class="project" id="project">
 
-  <h2>Project Saya</h2>
+  <div class="section-title">
+
+    <span>MY PROJECT</span>
+
+    <h2>
+      Featured Creative Work
+    </h2>
+
+  </div>
 
   <div class="project-grid">
 
-    <div class="card">
-      <h3>Website Jasa Digital</h3>
+    <div class="card featured-card">
+
+      <div class="card-top">
+
+        <span class="number">
+          01
+        </span>
+
+        <span class="status">
+          LIVE
+        </span>
+
+      </div>
+
+      <h3>
+        Website Jasa Digital
+      </h3>
 
       <p>
-        Website modern untuk layanan kreatif digital.
+        Website modern untuk layanan kreatif digital
+        dengan tampilan clean, elegan,
+        dan responsive.
       </p>
 
       <a 
@@ -93,22 +197,41 @@
       >
         Kunjungi Website →
       </a>
+
     </div>
 
     <div class="card">
-      <h3>Desain Poster</h3>
+
+      <span class="number">
+        02
+      </span>
+
+      <h3>
+        Poster Design
+      </h3>
 
       <p>
-        Poster branding dan promosi modern.
+        Desain poster modern
+        untuk branding dan promosi digital.
       </p>
+
     </div>
 
     <div class="card">
-      <h3>UI/UX Mobile App</h3>
+
+      <span class="number">
+        03
+      </span>
+
+      <h3>
+        Mobile UI/UX
+      </h3>
 
       <p>
-        Desain aplikasi modern dan clean.
+        Interface aplikasi modern
+        dengan konsep minimalis premium.
       </p>
+
     </div>
 
   </div>
@@ -117,16 +240,44 @@
 
 <section class="contact" id="contact">
 
-  <h2>Kontak</h2>
+  <div class="section-title">
 
-  <p>Email: auliasaputr401@gmail.com</p>
-  <p>WhatsApp: 082276427953</p>
-  <p>Instagram: @auliasaputraaa_</p>
+    <span>CONTACT</span>
+
+    <h2>
+      Let's Work Together
+    </h2>
+
+  </div>
+
+  <div class="contact-grid">
+
+    <div class="contact-card">
+      📧 auliasaputr401@gmail.com
+    </div>
+
+    <div class="contact-card">
+      📱 082276427953
+    </div>
+
+    <div class="contact-card">
+      📷 @auliasaputraaa_
+    </div>
+
+    <div class="contact-card">
+      📍 Lampoh Saka
+    </div>
+
+  </div>
 
 </section>
 
 <footer>
-  <p>© 2026 Aulia Saputra</p>
+
+  <p>
+    © 2026 Aulia Saputra Portfolio
+  </p>
+
 </footer>
 
 <script src="script.js"></script>
